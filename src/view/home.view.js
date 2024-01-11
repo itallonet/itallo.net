@@ -3,6 +3,11 @@ import banner from "../assets/images/banner.jpeg";
 import itallo from "../assets/images/itallo.png";
 import "../assets/css/home.css";
 
+/**
+ * HomeView
+ * @description Home page
+ * @returns {JSX.Element} HomeView
+ */
 export default class HomeView extends React.Component {
     render() {
         return (
@@ -35,19 +40,14 @@ export default class HomeView extends React.Component {
                                 <span>LinkedIn</span>
                                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
-                            {/* <a href="#">E-mail</a> */}
-                            {/* <a href="#">Blog</a> */}
+                            <a href="mailto:contato@itallonet.tech">
+                                <i className="fa-solid fa-envelope"></i>
+                                <span>E-mail</span>
+                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
                         </div>
                     </div>
-                </div>
-                {/* <div id="modal"
-                    class="hidden fixed top-0 left-0 z-80 w-screen h-screen bg-black/70 flex justify-center items-center">
-
-                    <a class="fixed z-90 top-6 right-8 text-white text-5xl font-bold" href="javascript:void(0)"
-                        onclick="closeModal()">&times;</a>
-
-                    <img id="modal-img" class="max-w-[800px] max-h-[600px] object-cover" />
-                </div> */}
+                </div>=
             </div>
         );
     }
