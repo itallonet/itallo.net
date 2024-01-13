@@ -24,7 +24,7 @@
       flex-direction: column;
   }
 
-  #itallo {
+  #itallo-link, #itallo {
       border-radius: 50%;
       z-index: 2;
       box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.15);

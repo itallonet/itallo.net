@@ -1,6 +1,6 @@
 import React from "react";
 import banner from "../assets/images/banner.jpeg";
-import itallo from "../assets/images/itallo.png";
+import itallo from "../assets/images/itallo.webp";
 import "../assets/css/home.css";
 
 /**
@@ -14,7 +14,7 @@ export default class HomeView extends React.Component {
             <div>
                 <img src={banner} alt="Banner" id="banner" />
                 <div id="home">
-                    <img src={itallo} alt="Itallo" id="itallo" width={200} />
+                    <a id="itallo-link" href="/"><img src={itallo} alt="Itallo" id="itallo" width="200" height="200" /></a>
                     <div id="content">
                         <h1>🔥🔥 Itallo 🔥🔥</h1>
                         <h4>@itallonet</h4>
@@ -45,6 +45,8 @@ export default class HomeView extends React.Component {
                                 <span>E-mail</span>
                                 <i className="fa-solid fa-arrow-up-right-from-square"></i>
                             </a>
+                            <a style={{display: 'none'}} href="/blog">Blog</a>
+                            <a style={{display: 'none'}} href="/login">Login</a>
                         </div>
                     </div>
                 </div>=
