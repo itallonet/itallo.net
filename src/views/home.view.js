@@ -31,10 +31,16 @@ export default class HomeView extends React.Component {
                 <div id="posts">
                     <h3>Blog</h3>
                     <div style={{ display: 'flex', justifyContent: 'center', alignItems: "center", width: '100%', flexWrap: 'wrap' }}>
-                        <Card 
+                        <Card
+                            date='Nov 14, 2023'
+                            image="https://miro.medium.com/v2/resize:fit:828/format:webp/0*uyiSQgzC6u5u0i14"
+                            title="Unveiling Ruby: A Journey through the Elegant Programming Languages"
+                            link="/post/unveiling-ruby"
+                        />
+                        <Card
                             date='Mar 1, 2022'
                             image="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Nw4LPSnLoRJmcEI8_AirkA.jpeg"
-                            title="A New Milestone: Unveiling Boundless Possibilities" 
+                            title="A New Milestone: Unveiling Boundless Possibilities"
                             link="/post/a-new-milestone"
                         />
                     </div>
