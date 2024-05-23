@@ -1,6 +1,5 @@
 import React from "react";
-import banner from "../assets/images/banner.jpeg";
-import itallo from "../assets/images/itallo.webp";
+import ProfilePic from "../assets/images/profile.jpg";
 import "../assets/css/home.css";
 
 /**
@@ -11,46 +10,33 @@ import "../assets/css/home.css";
 export default class HomeView extends React.Component {
     render() {
         return (
-            <div>
-                <img src={banner} alt="Banner" id="banner" />
-                <div id="home">
-                    <a id="itallo-link" href="/"><img src={itallo} alt="Itallo" id="itallo" width="200" height="200" /></a>
-                    <div id="content">
-                        <h1>🔥🔥 Itallo 🔥🔥</h1>
-                        <h4>@itallonet</h4>
-                        <small>Desenvolvedor e Consultor em OpenTelemetry e New Relic | Especialista em <br /> Gestão de Projetos e Liderança | Apaixonado por Soluções<br /> Inovadoras e Resultados Tangíveis | Comprometido com<br /> a Excelência e Satisfação do Cliente</small>
-                        <div id="items">
-                            <a target="_blank" href="https://youtube.com/@itallonet">
-                                <i className="fa-brands fa-youtube"></i>
-                                <span>YouTube</span>
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a target="_blank" href="https://twitch.tv/itallonet">
-                                <i className="fa-brands fa-twitch"></i>
-                                <span>Twitch</span>
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a target="_blank" href="https://twitter.com/@itallonet">
-                                <i className="fa-brands fa-twitter"></i>
-                                <span>Twitter</span>
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a target="_blank" href="https://www.linkedin.com/in/itallonet/">
-                                <i className="fa-brands fa-linkedin"></i>
-                                <span>LinkedIn</span>
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a href="mailto:contato@itallonet.tech">
-                                <i className="fa-solid fa-envelope"></i>
-                                <span>E-mail</span>
-                                <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                            </a>
-                            <a style={{display: 'none'}} href="/blog">Blog</a>
-                            <a style={{display: 'none'}} href="/login">Login</a>
-                        </div>
+            <main id="home">
+                <div id="banner">
+                    <img src={ProfilePic} />
+                </div>
+                <div id="identity">
+                    <h1>Itallo Rian</h1>
+                    <span><strong>IT Engineer</strong> focused on software development and observability</span> <br />
+                    <small>#dotnet #javascript #docker #kubernetes #aws #opentelemetry #grafana #newrelic</small>
+                </div>
+                <div id="social">
+                    <a href="https://github.com/itallonet" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/itallonet" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:itallorian3@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-solid fa-envelope"></i> E-mail
+                    </a>
+                </div>
+                <div id="posts">
+                    <h3>Blog</h3>
+                    <div>
+                        No posts at the moment
                     </div>
-                </div>=
-            </div>
+                </div>
+            </main>
         );
     }
 }

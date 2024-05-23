@@ -1,30 +1,28 @@
-# Iron Men: Portal ItalloNet
+# Portal ItalloNet
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-O fascinante projeto Iron Men representa a expressão digital da identidade da ItalloNet, oferecendo uma experiência única aos visitantes ávidos por inovação. Explore esse universo tecnológico em nosso site institucional em [itallonet.tech](https://www.itallonet.tech) e mergulhe nas infinitas possibilidades que a ItalloNet tem a oferecer. 
+The fascinating Iron Men project represents the digital expression of ItalloNet's identity, offering a unique experience to visitors eager for innovation. Explore this technological universe on our institutional website at [itallo.net](https://www.itallo.net) and delve into the infinite possibilities that ItalloNet has to offer.
 
-Descubra mais do que uma simples plataforma online; descubra um ecossistema digital pulsante, onde a excelência e a vanguarda convergem para criar uma experiência verdadeiramente memorável. Seja bem-vindo ao futuro da conectividade, seja bem-vindo ao Iron Men!
+Discover more than a simple online platform; discover a pulsating digital ecosystem, where excellence and cutting-edge converge to create a truly memorable experience. Welcome to the future of connectivity, welcome to ItalloNet!
 
-![Imagem do Iron Man](https://images5.alphacoders.com/523/523395.jpg)
+## Installation
 
-## Instalação
-
-Configuração necessária
+Required configuration
 
 ```bash
     node v20.10.0
     npm 10.2.3
 ```
 
-Instale iron-men com npm
+Install with npm
 
 ```bash
   npm install
   npm start
 ```
     
-## Autores
+## Authors
 
 - [@itallonet](https://www.github.com/itallonet)
 
