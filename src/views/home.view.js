@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePic from "../assets/images/profile.jpg";
-import "../assets/css/home.css";
+import Card from "../posts/card";
 
 /**
  * HomeView
@@ -32,8 +32,13 @@ export default class HomeView extends React.Component {
                 </div>
                 <div id="posts">
                     <h3>Blog</h3>
-                    <div>
-                        No posts at the moment
+                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: "center", width: '100%', flexWrap: 'wrap' }}>
+                        <Card 
+                            date='Mar 1, 2022'
+                            image="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Nw4LPSnLoRJmcEI8_AirkA.jpeg"
+                            title="A New Milestone: Unveiling Boundless Possibilities" 
+                            link="/post/a-new-milestone"
+                        />
                     </div>
                 </div>
             </main>

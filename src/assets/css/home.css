@@ -52,13 +52,17 @@ body {
 #home #social {
   text-align: center;
   margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 #home #social a {
   text-decoration: none;
   color: white;
   font-size: 20px;
-  margin: 0 20px;
+  margin: 5px 20px;
   border: 1px solid white;
   padding: 10px 20px;
   border-radius: 20px;
