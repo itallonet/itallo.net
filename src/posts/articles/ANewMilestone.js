@@ -1,4 +1,5 @@
 import Article from "../article";
+import Footer from "../footer";
 import Header from "../header";
 import Image from "../image";
 import MetaData from "../metadata";
@@ -26,8 +27,9 @@ const ANewMilestone = () => {
                 <Paragraph>Started from the Bottom: 9 Months of Learning, Growing, and Late Nights. A pivotal conversation awaited me — a turning point that could either mark the end or signify my official entry into the IT domain.</Paragraph>
                 <Paragraph>The Best Unfolded: From Trainee to Junior in Just Over a Year. I started from scratch, leveraging the privilege of teenage study time and the determination to grow.</Paragraph>
                 <Paragraph>Never Stop Learning, Always Aspire to Win. Your Determination Moves the World.</Paragraph>
-                <Image legend="Itallo Rian" source={"https://miro.medium.com/v2/resize:fit:828/format:webp/1*Nw4LPSnLoRJmcEI8_AirkA.jpeg"} />
+                <Image legend="Itallo Rian" source={"https://media.licdn.com/dms/image/C4D22AQEAosKJdTtTdA/feedshare-shrink_800/0/1656712456246?e=1719446400&v=beta&t=NI_UqzjsclYt-9N-59xG2eKBohj0ETUaGg3p9ikmqxY"} />
             </Article>
+            <Footer />
         </main>
     )
 }

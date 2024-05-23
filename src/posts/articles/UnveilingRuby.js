@@ -1,5 +1,6 @@
 import Article from "../article";
 import Code from "../code";
+import Footer from "../footer";
 import Header from "../header";
 import Image from "../image";
 import MetaData from "../metadata";
@@ -60,6 +61,7 @@ const UnveilingRuby = () => {
                 <Paragraph>Additionally, don’t miss out on updates on our other social media channels. We’re active on LinkedIn, Twitter and YouTube, ready to engage in dialogue and share exciting stories from the tech universe.</Paragraph>
                 <Image legend="Photo by Joshua Fuller" source={"https://miro.medium.com/v2/resize:fit:828/format:webp/0*uyiSQgzC6u5u0i14"} />
             </Article>
+            <Footer />
         </main>
     )
 }

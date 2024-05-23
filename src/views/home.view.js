@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../posts/header"
 import Card from "../posts/card";
+import Footer from "../posts/footer";
 
 /**
  * HomeView
@@ -19,13 +20,13 @@ export default class HomeView extends React.Component {
                 </div>
                 <div id="social">
                     <a href="https://github.com/itallonet" target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-github"></i> GitHub
+                        <i className="fa-brands fa-github"></i>&nbsp;&nbsp; GitHub
                     </a>
                     <a href="https://linkedin.com/in/itallonet" target="_blank" rel="noopener noreferrer">
-                        <i className="fa-brands fa-linkedin"></i> LinkedIn
+                        <i className="fa-brands fa-linkedin"></i>&nbsp;&nbsp; LinkedIn
                     </a>
                     <a href="mailto:itallorian3@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fa-solid fa-envelope"></i> E-mail
+                        <i className="fa-solid fa-envelope"></i>&nbsp;&nbsp; E-mail
                     </a>
                 </div>
                 <div id="posts">
@@ -39,12 +40,13 @@ export default class HomeView extends React.Component {
                         />
                         <Card
                             date='Mar 1, 2022'
-                            image="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Nw4LPSnLoRJmcEI8_AirkA.jpeg"
+                            image="https://media.licdn.com/dms/image/C4D22AQEAosKJdTtTdA/feedshare-shrink_800/0/1656712456246?e=1719446400&v=beta&t=NI_UqzjsclYt-9N-59xG2eKBohj0ETUaGg3p9ikmqxY"
                             title="A New Milestone: Unveiling Boundless Possibilities"
                             link="/post/a-new-milestone"
                         />
                     </div>
                 </div>
+                <Footer />
             </main>
         );
     }
