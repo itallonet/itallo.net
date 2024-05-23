@@ -1,0 +1,67 @@
+#projects {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin: 50px 0;
+}
+
+#projects #hero {
+    background: url("../images/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: '0px 0px 15px -4px rgba(0, 0, 0, 0.75)';
+    max-width: 800px;
+    width: 100%;
+}
+
+#projects #hero #backdrop {
+    height: 190px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+#projects #hero #backdrop #p-title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#projects #hero #backdrop #p-subtitle {
+    font-weight: 400;
+}
+
+#projects #hero #backdrop #p-box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#projects #hero #backdrop #p-box #p-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects #hero #backdrop #p-box a {
+    padding: 0 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    text-transform: capitalize;
+    letter-spacing: 1.5;
+}

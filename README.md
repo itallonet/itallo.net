@@ -6,6 +6,8 @@ The fascinating Iron Men project represents the digital expression of ItalloNet'
 
 Discover more than a simple online platform; discover a pulsating digital ecosystem, where excellence and cutting-edge converge to create a truly memorable experience. Welcome to the future of connectivity, welcome to ItalloNet!
 
+![Preview](https://github.com/itallonet/itallo.net/blob/master/public/image.png)
+
 ## Installation
 
 Required configuration

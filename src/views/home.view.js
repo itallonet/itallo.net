@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../posts/header"
 import Card from "../posts/card";
 import Footer from "../posts/footer";
+import Projects from "../projects/"
 
 /**
  * HomeView
@@ -46,6 +47,7 @@ export default class HomeView extends React.Component {
                         />
                     </div>
                 </div>
+                <Projects />
                 <Footer />
             </main>
         );
