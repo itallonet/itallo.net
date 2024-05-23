@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header id="home">
             <div id="banner">
-                <img src={ProfilePic} />
+                <img style={{ cursor: 'pointer' }} onClick={() => window.location.href = '/'} src={ProfilePic} />
             </div>
         </header>
     )
