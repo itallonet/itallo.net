@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Article from "../article";
 import Code from "../code";
 import Footer from "../footer";
@@ -12,6 +13,9 @@ import SecondTitle from "../title-two";
 const UnveilingRuby = () => {
     return (
         <main id="detail-post" style={{ display: "flex", flexDirection: 'column' }}>
+            <Helmet>
+                <title>Unveiling Ruby: A Journey through the Elegant Programming Language | Itallo Rian</title>
+            </Helmet>
             <Header />
             <MetaData date={"Nov 14, 2023"} />
             <Article>

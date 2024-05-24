@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import Article from "../article";
 import Footer from "../footer";
 import Header from "../header";
@@ -11,6 +12,9 @@ import SecondTitle from "../title-two";
 const ANewMilestone = () => {
     return (
         <main id="detail-post" style={{ display: "flex", flexDirection: 'column' }}>
+            <Helmet>
+                <title>A New Milestone: Unveiling Boundless Possibilities | Itallo Rian</title>
+            </Helmet>
             <Header />
             <MetaData date={"Mar 1, 2022"} />
             <Article>
